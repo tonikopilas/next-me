@@ -1,0 +1,18 @@
+@import "@/styles/core/colors";
+
+.t-button {
+  background-color: $scarlet-red; /* Scarlet background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  height: 56px;
+  width: 100%;
+  max-width: 120px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase; /* Makes text uppercase */
+
+  &:hover {
+    background-color: $crimson-red; /* Crimson background on hover */
+  }
+}

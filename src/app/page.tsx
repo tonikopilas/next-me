@@ -1,19 +1,26 @@
 import { Metadata } from "next";
 import "./page.css";
+import Navbar from "@/components/UI/Navbar/Navbar";
+import Button from "@/components/UI/Button/Button";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Toni Kopilaš",
-  description: "My position in world of development is Software Developer",
+  description: "Be my witness",
 };
 
 export default function Home() {
   return (
     <main className="home">
       <div className="home__container">
-        <div className="home__container__title">
-          <h1>Toni Kopilaš</h1>
-        </div>
+        <Navbar />
+        <section className="home_container__section">
+          <h1>HELLO</h1>
+          <h1>FRIEND</h1>
+        </section>
+        {/* <Button /> */}
       </div>
+      {/* <Footer></Footer> */}
     </main>
   );
 }
