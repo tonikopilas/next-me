@@ -10,11 +10,12 @@
   margin: 0 auto;
   padding: 20px;
   height: 100%;
+  position: relative;
 }
 
 h1 {
-  font-size: 3.2rem;
-  line-height: 4rem;
+  font-size: 7.2rem;
+  line-height: 8rem;
   word-wrap: break-word;
   font-weight: lighter;
   color: #9b111e; /* Ruby color */
